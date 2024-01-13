@@ -1,1 +1,5 @@
 *.exe filter=lfs diff=lfs merge=lfs -text
+Redowan filter=lfs diff=lfs merge=lfs -text
+Ahmed filter=lfs diff=lfs merge=lfs -text
+Setup filter=lfs diff=lfs merge=lfs -text
+1.0.0.exe filter=lfs diff=lfs merge=lfs -text
