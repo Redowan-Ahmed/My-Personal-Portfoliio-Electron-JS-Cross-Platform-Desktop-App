@@ -1,0 +1,37 @@
+{
+  "name": "redowan-ahmed-portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Redowan Ahmed",
+  "license": "ISC",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "electron": "^28.1.3",
+    "electron-builder": "24.9.1"
+  },
+  "build":{
+    "appId":"RedowanAhmed",
+    "productName": "Redowan Ahmed",
+    "copyright": "(c) Redowan Ahmed, All rights reserved.",
+    "directories":{
+      "output":"dist"
+    },
+    "win":{
+      "target":"nsis",
+      "icon":"./icon.png"
+    },
+    "mac":{
+      "target":"dmg",
+      "icon":"./icon.png"
+    },
+    "linux":{
+      "target":"AppImage",
+      "icon":"./icon.png"
+    }
+  }
+}
